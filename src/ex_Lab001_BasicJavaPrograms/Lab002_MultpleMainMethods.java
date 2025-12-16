@@ -6,9 +6,9 @@ public class Lab002_MultpleMainMethods {
         System.out.println("This is the main method");
     }
 
-    public static void main(String[] sek) {
+//    public static void main(String[] args) {
 
-    }
+//    }
 
     public static void main(String args) {
 
