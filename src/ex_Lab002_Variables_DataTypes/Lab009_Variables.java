@@ -9,9 +9,9 @@ public class Lab009_Variables {
     }
     public static void main(String[] args) {
 
-        System.out.println(a);
+//        System.out.println(Lab009_Variables.a);
         System.out.println(b);
-        System.out.println(c);
+//        System.out.println(Lab009_Variables.c);
 
     }
 }
