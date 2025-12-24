@@ -8,5 +8,6 @@ public class Lab024_String_Null {
         char c = '0';
 //        int a = null;
         System.out.println(name);
+
     }
 }
