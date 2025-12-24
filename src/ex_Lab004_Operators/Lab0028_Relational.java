@@ -16,12 +16,26 @@ public class Lab0028_Relational {
 
         System.out.println(marks > 50);
 
-        */
+
 
 //        Less Then(<)
 
         int speed = 80;
 
-        System.out.println(speed < 50);
+        System.out.println(speed < 100);
+
+
+
+//        Greater Than or Equal to(>=)
+
+        int age = 18;
+        System.out.println(age >= 98);
+
+      */
+//        Less Than or Equal to (<=)
+
+        int attemtps = 5;
+
+        System.out.println(attemtps <= 6);
     }
 }
