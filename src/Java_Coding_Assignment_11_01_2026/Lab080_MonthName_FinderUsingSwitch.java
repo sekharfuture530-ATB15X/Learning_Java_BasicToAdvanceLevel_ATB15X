@@ -55,5 +55,7 @@ public class Lab080_MonthName_FinderUsingSwitch {
                 System.out.println("Invalid Month number:");
 
         }
+
+        scanner.close();
     }
 }

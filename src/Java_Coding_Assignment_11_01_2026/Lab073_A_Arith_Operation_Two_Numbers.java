@@ -10,34 +10,28 @@ import java.util.Scanner;
 public class Lab073_A_Arith_Operation_Two_Numbers {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a numbers :");
-        int results1 = scanner.nextInt();
-        System.out.println("Enter b number :");
-        int results = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter first integer: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Enter second integer: ");
+        int num2 = sc.nextInt();
+
+        System.out.println("\nSum = " + (num1 + num2));
+        System.out.println("Difference = " + (num1 - num2));
+        System.out.println("Multiplication = " + (num1 * num2));
+
+        if (num2 != 0) {
+            System.out.println("Division = " + (num1 / num2));
+            System.out.println("Remainder = " + (num1 % num2));
+        } else {
+            System.out.println("Division = Not possible (division by zero)");
+            System.out.println("Remainder = Not possible (division by zero)");
+        }
+
+        sc.close();
     }
-        void sumNumbers(int a, int b){
-            System.out.println(a+b);
-
-        }
-        void subNumbers(int a, int b){
-            System.out.println(a-b);
-        }
-
-        void mulNumbers(int a, int b){
-            System.out.println(a*b);
-        }
-
-        void divNumbers(int a, int b){
-            System.out.println(a/b);
-        }
-
-          void modNumbers(int a, int b){
-            System.out.println(a%b);
-        }
-
-
 
     }
 
