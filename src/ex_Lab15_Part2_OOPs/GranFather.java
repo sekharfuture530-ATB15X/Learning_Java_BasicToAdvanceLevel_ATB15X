@@ -1,4 +1,4 @@
-package ex_Lab_Part2_OOPs;
+package ex_Lab15_Part2_OOPs;
 
 public class GranFather {
     int gold =1000;

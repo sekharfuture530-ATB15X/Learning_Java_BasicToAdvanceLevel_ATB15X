@@ -1,4 +1,4 @@
-package ex_Lab_Part2_OOPs;
+package ex_Lab15_Part2_OOPs;
 
 public class Son_Multilevel extends Father_Multilevel{
 
